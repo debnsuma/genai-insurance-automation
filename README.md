@@ -21,7 +21,7 @@ Insurance companies manage extensive procedure documents, making manual processi
 
 This repository is divided into two main sections:
 
-### Part 1: Beginner's Guide - Insurance Renewal Prediction 🔮
+### [Part 1: Beginner's Guide - Insurance Renewal Prediction 🔮](Part1-Code%20Generation/README.md)
 
 ![Insurance Renewal Prediction](img/renewal.jpeg)
 
@@ -46,7 +46,7 @@ A comprehensive solution demonstrating how to leverage generative AI to create M
 - 🔍 **Recall:** 16%
 - ⚖️ **F1-score:** 26%
 
-### Part 2: Advanced Implementation - Intelligent Claims Processing 🤖
+### [Part 2: Advanced Implementation - Intelligent Claims Processing 🤖](Part2-Insurance%20Claim%20Lifecycle/README.md)
 
 ![Architecture Diagram](Part2-Insurance%20Claim%20Lifecycle/design/agent-overview.png)
 
