@@ -1,6 +1,6 @@
 <div align="center">  
   <h1 style="color: #2F80ED; font-size: 3em; margin-bottom: 0;">
-    🚗 Insurance Operations Automation with Generative AI using Amazon Bedrock
+    🚗 Insurance Operations Automation with generative AI using Amazon Bedrock
   </h1>
 
   <div style="margin: 20px 0;">
