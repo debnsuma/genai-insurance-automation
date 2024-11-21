@@ -1,6 +1,6 @@
 # Part 1: Insurance Renewal Prediction with Generative AI 🔮
 
-![Insurance Renewal Prediction](https://decoratex.biz/bsn/fr/static/img/a/42515/466437/77586.jpg)
+![Insurance Renewal Prediction](../img/renewal.jpeg)
 
 ## 📋 Overview
 
@@ -25,6 +25,16 @@ The dataset (`data_ml.csv`) contains customer information including:
 - Total Claim Amount
 - Various encoded features (Sales Channel, Vehicle Class, etc.)
 
-## 🛠️ Technical Implementation
+## 🛠️ Getting Started
 
-### Prerequisites 
+- Clone the repository 
+    ```bash
+    git clone https://github.com/aws-samples/amazon-bedrock-generative-ai-insurance-renewal-prediction.git
+    cd amazon-bedrock-generative-ai-insurance-renewal-prediction/Part1-Code-Generation
+    ```
+- Open the notebook [insurance_renewal_prediction.ipynb](insurance_renewal_prediction.ipynb)
+    ```bash
+    jupyter notebook insurance_renewal_prediction.ipynb
+    ```
+- Follow the instructions in the notebook to run the code
+
