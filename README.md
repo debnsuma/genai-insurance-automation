@@ -7,8 +7,14 @@
     <a href="https://reinvent.awsevents.com/">
       <img src="https://img.shields.io/badge/AWS_re:Invent_2024-DEV333-FF9900?style=for-the-badge&logo=amazon-aws" alt="AWS re:Invent 2024"/>
     </a>
-    <a href="https://opensource.org/licenses/MIT">
+    <a href="https://github.com/debnsuma/genai-insurance-automation/LICENSE">
       <img src="https://img.shields.io/badge/License-MIT-FF9900?style=for-the-badge" alt="License: MIT"/>
+    </a>
+    <a href="https://github.com/debnsuma/genai-insurance-automation/stargazers">
+      <img src="https://img.shields.io/github/stars/build-on-aws?style=for-the-badge&color=blue" alt="GitHub stars"/>
+    </a>
+    <a href="https://github.com/debnsuma/genai-insurance-automation/blob/main/LICENSE">
+      <img src="https://img.shields.io/github/license/debnsuma/genai-insurance-automation?style=for-the-badge&color=green" alt="GitHub license"/>
     </a>
   </div>
 </div>
