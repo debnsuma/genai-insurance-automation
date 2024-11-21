@@ -23,6 +23,8 @@ This repository is divided into two main sections:
 
 ### [Part 1: Beginner's Guide - Insurance Renewal Prediction 🔮](Part1-Code%20Generation/README.md)
 
+This section demonstrates how to leverage generative AI to create a machine learning model for predicting insurance renewal likelihood. We use Amazon Bedrock's Claude model to generate production-ready Python code for data analysis and model training.
+
 ![Insurance Renewal Prediction](img/renewal.jpeg)
 
 A comprehensive solution demonstrating how to leverage generative AI to create ML models for predicting insurance renewal likelihood using Amazon Bedrock.
@@ -47,6 +49,10 @@ A comprehensive solution demonstrating how to leverage generative AI to create M
 - ⚖️ **F1-score:** 26%
 
 ### [Part 2: Advanced Implementation - Intelligent Claims Processing 🤖](Part2-Insurance%20Claim%20Lifecycle/README.md)
+
+You can now use [Amazon Bedrock Agents](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html) and [Knowledge Bases for Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html) to configure specialized agents that seamlessly run actions based on user input and your organization's data. These managed agents play conductor, orchestrating interactions between foundation models (FMs), API integrations, user conversations, and knowledge bases loaded with your data. 
+
+This sample solution highlights how you can use Agents and Knowledge Bases for Amazon Bedrock to **build on existing enterprise resources** to automate the tasks associated with the insurance claim lifecycle, efficiently scale and improve customer service, and enhance decision support through improved knowledge management. Your Bedrock-powered insurance agent can assist human agents by creating new claims, sending pending document reminders for open claims, gathering claims evidence, and searching for information across existing claims and customer knowledge repositories.
 
 ![Architecture Diagram](Part2-Insurance%20Claim%20Lifecycle/design/agent-overview.png)
 
