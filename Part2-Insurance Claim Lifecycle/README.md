@@ -1,7 +1,5 @@
 # Insurance Claim Lifecycle Automation Using Agents and Knowledge Bases for Amazon Bedrock
----
 
-## Content
 - [Overview](#overview)
 - [Agents and Knowledge Bases Architecture](#agents-and-knowledge-bases-architecture)
 - [Cost](#cost)
