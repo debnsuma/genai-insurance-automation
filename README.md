@@ -24,6 +24,40 @@ This repository is divided into two main sections:
 - [Part 1: Beginner's Guide - Insurance Renewal Prediction 🔮](Part1-Code%20Generation/README.md)
 - [Part 2: Advanced Implementation - Intelligent Claims Processing 🤖](Part2-Insurance%20Claim%20Lifecycle/README.md)
 
+## 📊 Project Structure
+
+Follow the directory structure below to navigate through the code:
+```
+.
+├── Part1-Code Generation/
+│   ├── data/
+│   │   ├── data_ml.csv
+│   │   └── data_ml_test.csv
+│   ├── src/
+│   │   └── claude_llm_invocation.py
+│   ├── playground.ipynb
+│   ├── model_code.py
+│   └── README.md
+├── Part2-Insurance-Claim-Lifecycle/
+│   ├── agents/
+│   │   ├── action-groups/
+│   │   └── prompts/
+│   ├── knowledge-base/
+│   │   ├── data/
+│   │   └── config/
+│   ├── design/
+│   │   └── agent-overview.png
+│   ├── documentation/
+│   │   ├── deployment-guide.md
+│   │   ├── testing-and-validation.md
+│   │   └── clean-up.md
+│   └── README.md
+├── LICENSE
+├── .gitignore
+└── README.md
+```
+
+
 ## [Part 1: Beginner's Guide - Insurance Renewal Prediction 🔮](Part1-Code%20Generation/README.md)
 
 This section demonstrates how to leverage generative AI to create a machine learning model for predicting insurance renewal likelihood. We use Amazon Bedrock's Claude model to generate production-ready Python code for data analysis and model training.
@@ -104,8 +138,6 @@ The workflow consists of the following steps:
 git clone https://github.com/yourusername/insurance-genai-automation.git
 
 # Navigate to Desired Section
-cd Part1-Code Generation
-# or
 cd Part2-Insurance-Claim-Lifecycle
 
 # Install Dependencies
@@ -127,39 +159,6 @@ my_config = Config(
 )
 
 client = boto3.client("bedrock-runtime", config = my_config)
-```
-
-## 📊 Project Structure
-
-Follow the directory structure below to navigate through the code:
-```
-.
-├── Part1-Code Generation/
-│   ├── data/
-│   │   ├── data_ml.csv
-│   │   └── data_ml_test.csv
-│   ├── src/
-│   │   └── claude_llm_invocation.py
-│   ├── playground.ipynb
-│   ├── model_code.py
-│   └── README.md
-├── Part2-Insurance-Claim-Lifecycle/
-│   ├── agents/
-│   │   ├── action-groups/
-│   │   └── prompts/
-│   ├── knowledge-base/
-│   │   ├── data/
-│   │   └── config/
-│   ├── design/
-│   │   └── agent-overview.png
-│   ├── documentation/
-│   │   ├── deployment-guide.md
-│   │   ├── testing-and-validation.md
-│   │   └── clean-up.md
-│   └── README.md
-├── LICENSE
-├── .gitignore
-└── README.md
 ```
 
 ## Directory Structure Overview
