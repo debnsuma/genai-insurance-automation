@@ -15,7 +15,7 @@
 
 ## 📋 Overview
 
-Insurance companies manage extensive procedure documents, making manual processing time-consuming and complex. This repository demonstrates a generative AI-based solution to automate and scale these operations. Learn how to build an end-to-end generative AI-based robotic process automation (RPA) solution to understand procedure documents with rules, tables, and images and perform operations according to customers' data by leveraging generative AI and large language models (LLMs).
+Insurance companies manage extensive procedure documents, making manual processing time-consuming and complex. This repo contains the code used for building an Automation Solution for Insurance Operation Process via Text-to-Code.This repository also demonstrates a generative AI-based solution to automate and scale these operations. Learn how to build an end-to-end generative AI-based robotic process automation (RPA) solution to understand procedure documents with rules, tables, and images and perform operations according to customers' data by leveraging generative AI and large language models (LLMs) using Amazon Bedrock. 
 
 ## 🎯 Repository Structure
 
