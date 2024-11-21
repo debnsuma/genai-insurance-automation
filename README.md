@@ -11,159 +11,65 @@
       <img src="https://img.shields.io/badge/License-MIT-FF9900?style=for-the-badge" alt="License: MIT"/>
     </a>
   </div>
-
-<h2 align="center" style="color: #4A5568; border-bottom: 2px solid #4A5568; padding-bottom: 10px;">
-  📋 Overview
-</h2>
-
-<div style="background-color: #F7FAFC; border-left: 4px solid #4299E1; padding: 20px; margin: 20px 0; border-radius: 0 8px 8px 0;">
-  Insurance companies manage extensive procedure documents, making manual processing time-consuming and complex. This repository demonstrates a generative AI-based solution to automate and scale these operations. Learn how to build an end-to-end generative AI-based robotic process automation (RPA) solution to understand procedure documents with rules, tables, and images and perform operations according to customers' data by leveraging generative AI and large language models (LLMs).
 </div>
 
-<h2 align="center" style="color: #4A5568; border-bottom: 2px solid #4A5568; padding-bottom: 10px;">
-  🎯 Repository Structure
-</h2>
+## 📋 Overview
+
+Insurance companies manage extensive procedure documents, making manual processing time-consuming and complex. This repository demonstrates a generative AI-based solution to automate and scale these operations. Learn how to build an end-to-end generative AI-based robotic process automation (RPA) solution to understand procedure documents with rules, tables, and images and perform operations according to customers' data by leveraging generative AI and large language models (LLMs).
+
+## 🎯 Repository Structure
 
 This repository is divided into two main sections:
 
-<div style="background: linear-gradient(135deg, #48BB78 0%, #38B2AC 100%); color: white; padding: 2px; border-radius: 10px; margin: 20px 0;">
-  <h3 style="background: white; color: #2D3748; margin: 0; padding: 15px; border-radius: 8px 8px 0 0;">
-    Part 1: Beginner's Guide - Insurance Renewal Prediction 🔮
-  </h3>
-  <div style="padding: 20px;">
-    <img src="img/renewal.jpeg" alt="Insurance Renewal Prediction" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
-    <p style="color: white; font-size: 1.1em;">
-      A comprehensive solution demonstrating how to leverage generative AI to create ML models for predicting insurance renewal likelihood using Amazon Bedrock.
-    </p>
-  </div>
-</div>
+### Part 1: Beginner's Guide - Insurance Renewal Prediction 🔮
 
-<div style="background-color: #EBF8FF; border-radius: 10px; padding: 20px; margin: 20px 0;">
-  <h4 style="color: #2B6CB0; margin-top: 0;">Business Context</h4>
-  <ul style="list-style-type: none; padding-left: 0;">
-    <li style="margin: 10px 0; padding: 10px; background-color: white; border-radius: 5px; border-left: 4px solid #4299E1;">
-      🚘 <strong style="color: #2C5282;">Domain:</strong> Automobile Insurance
-    </li>
-    <li style="margin: 10px 0; padding: 10px; background-color: white; border-radius: 5px; border-left: 4px solid #4299E1;">
-      🛡️ <strong style="color: #2C5282;">Coverage:</strong> Physical damage, bodily injury, theft, fire, flood protection
-    </li>
-    <li style="margin: 10px 0; padding: 10px; background-color: white; border-radius: 5px; border-left: 4px solid #4299E1;">
-      📊 <strong style="color: #2C5282;">Challenge:</strong> Optimizing customer renewal outreach
-    </li>
-    <li style="margin: 10px 0; padding: 10px; background-color: white; border-radius: 5px; border-left: 4px solid #4299E1;">
-      💼 <strong style="color: #2C5282;">Market Reality:</strong> Only ~14% of customers agree to renewal
-    </li>
-  </ul>
-</div>
+![Insurance Renewal Prediction](img/renewal.jpeg)
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
-  <div style="background: linear-gradient(135deg, #4299E1 0%, #3182CE 100%); padding: 20px; border-radius: 10px; color: white;">
-    <h4 style="color: white; margin-top: 0; border-bottom: 2px solid rgba(255,255,255,0.3); padding-bottom: 10px;">
-      🛠️ Technical Stack
-    </h4>
-    <ul style="list-style-type: none; padding-left: 0;">
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 5px;">
-        ⚡ Amazon Bedrock with Claude model
-      </li>
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 5px;">
-        🐍 Python ML libraries (scikit-learn)
-      </li>
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 5px;">
-        📊 Pandas for data processing
-      </li>
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 5px;">
-        🔧 AWS SDK for Python (Boto3)
-      </li>
-    </ul>
-  </div>
+A comprehensive solution demonstrating how to leverage generative AI to create ML models for predicting insurance renewal likelihood using Amazon Bedrock.
 
-  <div style="background: linear-gradient(135deg, #48BB78 0%, #38A169 100%); padding: 20px; border-radius: 10px; color: white;">
-    <h4 style="color: white; margin-top: 0; border-bottom: 2px solid rgba(255,255,255,0.3); padding-bottom: 10px;">
-      📈 Model Performance
-    </h4>
-    <ul style="list-style-type: none; padding-left: 0;">
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 5px;">
-        🎯 <strong>Accuracy:</strong> 87%
-      </li>
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 5px;">
-        ✨ <strong>Precision:</strong> 68%
-      </li>
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 5px;">
-        🔍 <strong>Recall:</strong> 16%
-      </li>
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 5px;">
-        ⚖️ <strong>F1-score:</strong> 26%
-      </li>
-    </ul>
-  </div>
-</div>
+### Business Context
 
-<div style="background: linear-gradient(135deg, #805AD5 0%, #6B46C1 100%); color: white; padding: 2px; border-radius: 10px; margin: 20px 0;">
-  <h3 style="background: white; color: #2D3748; margin: 0; padding: 15px; border-radius: 8px 8px 0 0;">
-    Part 2: Advanced Implementation - Intelligent Claims Processing 🤖
-  </h3>
-  <div style="padding: 20px;">
-    <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 8px; margin-bottom: 20px;">
-      <img src="Part2-Insurance Claim Lifecycle/design/agent-overview.png" alt="Architecture Diagram" style="width: 100%; border-radius: 8px; margin-bottom: 10px;">
-      <em style="color: rgba(255,255,255,0.8);">Diagram 1: Agents and Knowledge Bases for Amazon Bedrock Architecture Overview</em>
-    </div>
-  </div>
-</div>
+- 🚘 **Domain:** Automobile Insurance
+- 🛡️ **Coverage:** Physical damage, bodily injury, theft, fire, flood protection
+- 📊 **Challenge:** Optimizing customer renewal outreach
+- 💼 **Market Reality:** Only ~14% of customers agree to renewal
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
-  <div style="background: linear-gradient(135deg, #ED8936 0%, #DD6B20 100%); padding: 20px; border-radius: 10px; color: white;">
-    <h4 style="color: white; margin-top: 0; border-bottom: 2px solid rgba(255,255,255,0.3); padding-bottom: 10px;">
-      💰 Cost Estimation (Monthly)
-    </h4>
-    <ul style="list-style-type: none; padding-left: 0;">
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 5px;">
-        📦 <strong>Amazon S3:</strong> $121.11
-      </li>
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 5px;">
-        🔍 <strong>Amazon OpenSearch:</strong> $591.36
-      </li>
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 5px;">
-        λ <strong>AWS Lambda:</strong> $0.10
-      </li>
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 5px;">
-        🤖 <strong>Agents and Knowledge Bases:</strong> $54.00
-      </li>
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.2); padding: 12px; border-radius: 5px; font-size: 1.1em;">
-        💵 <strong>Total:</strong> $766.57
-      </li>
-    </ul>
-  </div>
+### Technical Stack
+- ⚡ Amazon Bedrock with Claude model
+- 🐍 Python ML libraries (scikit-learn)
+- 📊 Pandas for data processing
+- 🔧 AWS SDK for Python (Boto3)
 
-  <div style="background: linear-gradient(135deg, #4FD1C5 0%, #319795 100%); padding: 20px; border-radius: 10px; color: white;">
-    <h4 style="color: white; margin-top: 0; border-bottom: 2px solid rgba(255,255,255,0.3); padding-bottom: 10px;">
-      🔥 Key Capabilities
-    </h4>
-    <ul style="list-style-type: none; padding-left: 0;">
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 5px;">
-        🤖 Task Orchestration
-      </li>
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 5px;">
-        🔄 Interactive Data Collection
-      </li>
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 5px;">
-        🔌 Task Fulfillment
-      </li>
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 5px;">
-        💬 System Integration
-      </li>
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 5px;">
-        📚 Data Querying
-      </li>
-      <li style="margin: 8px 0; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 5px;">
-        📋 Source Attribution
-      </li>
-    </ul>
-  </div>
-</div>
+### Model Performance
+- 🎯 **Accuracy:** 87%
+- ✨ **Precision:** 68%
+- 🔍 **Recall:** 16%
+- ⚖️ **F1-score:** 26%
+
+### Part 2: Advanced Implementation - Intelligent Claims Processing 🤖
+
+![Architecture Diagram](Part2-Insurance%20Claim%20Lifecycle/design/agent-overview.png)
+
+### 💰 Cost Estimation (Monthly)
+
+| Service | Cost |
+|---------|------|
+| 📦 Amazon S3 | $121.11 |
+| 🔍 Amazon OpenSearch | $591.36 |
+| λ AWS Lambda | $0.10 |
+| 🤖 Agents and Knowledge Bases | $54.00 |
+| 💵 **Total** | **$766.57** |
+
+### 🔥 Key Capabilities
+
+- 🤖 Task Orchestration
+- 🔄 Interactive Data Collection
+- 🔌 Task Fulfillment
+- 💬 System Integration
+- 📚 Data Querying
+- 📋 Source Attribution
 
 ## 🚀 Getting Started
-
-Clone the repository and navigate to the desired section.
 
 ```bash
 # Clone the Repository
@@ -176,6 +82,7 @@ cd Part2-Insurance-Claim-Lifecycle
 
 # Install Dependencies
 pip install -r requirements.txt
+```
 
 ### Configure AWS Credentials
 ```python
