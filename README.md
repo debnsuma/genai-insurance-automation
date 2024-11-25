@@ -88,6 +88,11 @@ A comprehensive solution demonstrating how to leverage generative AI to create M
 - 🔍 **Recall:** 16%
 - ⚖️ **F1-score:** 26%
 
+### Demo 
+
+[![Demo](https://img.youtube.com/vi/rs3iQkfBsGg/0.jpg)](https://www.youtube.com/watch?v=rs3iQkfBsGg "Watch on YouTube")
+
+
 ## [Part 2: Advanced Implementation - Intelligent Claims Processing 🤖](Part2-Insurance%20Claim%20Lifecycle/README.md)
 
 You can now use [Amazon Bedrock Agents](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html) and [Knowledge Bases for Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html) to configure specialized agents that seamlessly run actions based on user input and your organization's data. These managed agents play conductor, orchestrating interactions between foundation models (FMs), API integrations, user conversations, and knowledge bases loaded with your data. 
