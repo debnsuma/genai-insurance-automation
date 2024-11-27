@@ -141,8 +141,7 @@ if 'data_source_id' not in st.session_state:
 
 # Streamlit App Layout
 st.title('Bedrock Insurance Agent')
-st.subheader('Powered by coffee and Amazon Bedrock')
-st.info("**PURPOSE:** Allow users to select between Agents and Knowledge Bases for Amazon Bedrock for their task automation and intelligent search use cases. ")
+st.info("**PURPOSE:** Allow users to select between Agents and Amazon Bedrock Knowledge Bases for their task automation and intelligent search use cases. ")
 idp_logo = "bedrock_logo.png"
 st.sidebar.image(idp_logo, width=300, output_format='PNG')
 
@@ -314,7 +313,7 @@ def process_uploaded_file(uploaded_file):
 def bedrock_query_knowledge_base(query):
     print(f"Knowledge Base query: {query}")
 
-    prompt_template = """\n\nHuman: You will be acting as a helpful customer service representative named Ava (short for Amazon Virtual Assistant) working for AnyCompany. Provide a summarized answer using only 1 or 2 sentences. 
+    prompt_template = """\n\nHuman: You will be acting as a helpful customer service representative named AVA (short for Amazon Virtual Assistant) working for AnyCompany. Provide a summarized answer using only 1 or 2 sentences. 
     Here is the relevant information in numbered order from our knowledge base: $search_results$
     Current time: $current_time$
     User query: $query$\n\nAssistant: """
