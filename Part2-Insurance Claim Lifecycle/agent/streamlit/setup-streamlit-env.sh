@@ -2,7 +2,6 @@
 
 # Name for the virtual environment
 VENV_NAME="agent-env"
-
 # Check if virtual environment already exists
 if [ ! -d "$VENV_NAME" ]; then
     echo "Creating virtual environment..."
@@ -37,3 +36,6 @@ if [ $? -eq 0 ]; then
 else
     echo "Failed to install packages from requirements.txt."
 fi
+
+# Setting the AWS Region
+export AWS_REGION='us-east-1'

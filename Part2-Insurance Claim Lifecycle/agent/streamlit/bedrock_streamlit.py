@@ -184,10 +184,10 @@ model_arn = f"arn:aws:bedrock:{region}::foundation-model/{model_id}"
 st.sidebar.subheader('4. Session Setting')
 st.sidebar.radio("Enable Session", [False, True], key="session_enabled")
 
-# Optional: Select filter attribute
-st.sidebar.subheader('5. (Optional) Filter Setting')
-filter_attributes = ["None", "external", "internal"]
-filter_attribute = st.sidebar.selectbox("Filter Attribute", filter_attributes)
+# # Optional: Select filter attribute
+# st.sidebar.subheader('5. (Optional) Filter Setting')
+# filter_attributes = ["None", "external", "internal"]
+# filter_attribute = st.sidebar.selectbox("Filter Attribute", filter_attributes)
 
 # Streamlit File Preview Helper Methods
 def show_csv(uploaded_file):
