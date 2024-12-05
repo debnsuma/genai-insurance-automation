@@ -186,7 +186,7 @@ st.sidebar.radio("Enable Session", [False, True], key="session_enabled")
 
 # # Optional: Select filter attribute
 # st.sidebar.subheader('5. (Optional) Filter Setting')
-# filter_attributes = ["None", "external", "internal"]
+filter_attributes = ["None", "external", "internal"]
 # filter_attribute = st.sidebar.selectbox("Filter Attribute", filter_attributes)
 
 # Streamlit File Preview Helper Methods
